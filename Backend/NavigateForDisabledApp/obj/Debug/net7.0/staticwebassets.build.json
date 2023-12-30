@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "nlwLE+OxGJzIPblli3YyxwgdQuwvGjCCgI+aQxqh1n0=",
+  "Source": "NavigateForDisabledApp",
+  "BasePath": "_content/NavigateForDisabledApp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

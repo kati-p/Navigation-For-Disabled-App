@@ -1,0 +1,1 @@
+dotnet ef dbcontext scaffold "server=localhost;port=3306;user=root;password=;database=NavigateSoftware" Pomelo.EntityFrameworkCore.MySql -c NavigateSoftwareDbContext -o Models -f
