@@ -1,0 +1,115 @@
+.login-page {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 400px;
+  /* Set a maximum width for larger screens */
+}
+
+.login-page .form .login {
+  margin-top: -31px;
+  margin-bottom: 26px;
+  text-align: center;
+}
+
+.form {
+
+  width: 100%;
+  height: auto;
+  color: #FFF;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin: 20px auto;
+  /* Adjust margin for responsive behavior */
+  padding: 25px;
+  align-content: center;
+  border-radius: 15px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  border: 1.5px solid rgba(255, 255, 255, 0.53);
+  background: rgba(69, 69, 69, 0.25);
+  backdrop-filter: blur(15px);
+}
+
+.form input {
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+  border-radius: 10px;
+}
+
+.form button {
+  outline: 0;
+  background-color: #283557;
+  background-image: linear-gradient(45deg, #283557, #5376cf);
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.form .message {
+  text-decoration: none;
+  margin: 15px 0 0;
+  color: #FFF;
+  font-size: 12px;
+  text-align: left;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.form .message a {
+  text-decoration: none;
+  text-align: end;
+  color: #45DEFF;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.form .contract {
+  font-size: 8px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 25px;
+}
+
+@media (min-width: 769px) {
+
+  /* Desktop styles */
+  .form {
+    max-width: 400px;
+    /* Keep the maximum width for larger screens */
+    margin: 200px auto;
+    /* Adjust margin for larger screens */
+  }
+}
+
+@media (max-width: 768px) {
+
+  /* Tablet styles */
+  .form {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+
+  /* Mobile styles */
+  .form {
+    padding: 15px;
+    margin-top: 60px;
+    width: 92%;
+  }
+}

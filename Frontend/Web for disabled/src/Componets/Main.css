@@ -1,0 +1,166 @@
+.logo {
+  height: 34px;
+  width: 65px;
+  position: absolute;
+  top: 35px;
+  left: 150px;
+}
+header{
+  width: 100%;
+  height: 90px;
+  background-color: #F1F1F1;
+}
+
+.user {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  top: 25px;
+  left: 1200px;
+  object-position: right;
+}
+
+.username{
+  position: absolute;
+  top: 25px;
+  left: 1273px;
+  color: #000;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-align: 250px;
+}
+
+.logout{
+  position: absolute;
+  top: 55px;
+  left: 1260px;
+  width: 70px;
+  height: 20px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  border: 1px solid #A3A3A3;
+  background: #D9D9D9;
+  color: #000;
+  font-family: Inter;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+
+.custom-select{
+  color: #242424;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+}
+
+
+.custom-select2 {
+  color: #242424;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+}
+
+select{
+  display: flex;
+  width: 406px;
+  height: 35px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  padding: 5px;
+  display: flex;
+  gap: 10px;
+  font-family: Poppins;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px; /* 150% */
+  letter-spacing: 0.36px;
+}
+
+.from{
+  position: absolute;
+  left: 150px;
+  top: 150px;
+}
+.final{
+  position: absolute;
+  left: 560px;
+  top: 150px;
+}
+
+.start{
+  width: 106px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  border: 1px solid #000;
+  background: #283557;
+  color: #F6F6F6;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  top: 160px;
+  right: 400px;
+}
+.end{
+  width: 106px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  border: 1px solid #000;
+  background: rgba(40, 53, 87, 0.66);
+  color: #E1E1E1;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  bottom: 50px;
+  left: 150px;
+}
+
+.box {
+  height: 300px;
+  width: 1000px;
+}
+
+.box .rectangle {
+  background-color: #e1e1e1;
+  height: 400px;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 1150px;
+  position: absolute;
+  top: 230px;
+  left: 150px;
+}
+
+.box .rectangle .data{
+  position: absolute;
+  left: 100px;
+}
+
+
+
+
+

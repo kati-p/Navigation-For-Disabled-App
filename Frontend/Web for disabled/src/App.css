@@ -1,0 +1,17 @@
+.bg-login {
+     background: url('./public/bg.png'), lightgray 50% / cover no-repeat;
+     font-family: 'Inter', sans-serif;
+     background-repeat: no-repeat;
+     background-position: center center;
+     background-attachment: fixed;
+     background-size: 100% 100%, auto;
+     background-color: transparent;
+}
+
+.bg-main{
+     background: #8397A5;
+}
+
+body {
+     margin: 0;
+}
